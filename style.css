@@ -1,0 +1,74 @@
+*{
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+.fonts{
+
+
+
+    font-family:"Inter",'Times New Roman';
+    font-optical-sizing: auto;
+}
+.buttons{
+
+    color:white;
+    background-color:#0e6532;
+    border-radius: 100px;
+    padding:10px 20px;
+    border:none;
+    cursor:pointer;
+    font-weight: 500px;
+}
+.buttons:hover{
+    background-color:#5f9171;
+}
+header{
+    background-color:#1a7742;
+}
+
+.color-green{
+    color:#0e6532;
+}
+nav{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 80px;
+    margin:auto;
+    max-width: 1400px;
+}
+nav.logos{
+    width:100%;
+    max-width:150px;
+
+}
+nav .menu{
+    display: flex;
+    font-size: 14px;
+    font-weight: 45000px;
+    list-style-type: none;
+    gap: 30px;
+    color: black;
+    align-items: center;
+}
+.line:hover{
+
+    text-decoration: underline;
+    text-decoration-color: #2fb969;
+}
+#banner{
+    background-image: url("assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    padding:60px 115px 120px 115px;
+
+}
